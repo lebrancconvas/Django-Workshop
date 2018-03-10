@@ -6,5 +6,6 @@ from django.http import HttpResponse
 def index(request):
     return HttpResponse(
         """<h1>Hello Music</h1>
-           <h2>Music BNK48 Unofficial Fansite</h2>"""
+           <h2>Music BNK48 Unofficial Fansite</h2>
+           <button>กดตรงนี้สิ</button>"""
     )

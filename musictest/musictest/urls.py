@@ -19,4 +19,5 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^music/', include("hellomusic.urls")),
+    url(r'^music01/', include("music01.urls")),
 ]

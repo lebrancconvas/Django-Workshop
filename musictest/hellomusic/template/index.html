@@ -12,5 +12,10 @@
     {% else %}
       <h3>เธอยังไม่ใช่ผู้ใหญ่</h3>
     {%endif%}
+    <p>
+      {% for musicfav in fav %}
+      {{ musicfav }}
+    </p>
+      {%endfor%}
   </body>
 </html>

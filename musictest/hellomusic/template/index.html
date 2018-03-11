@@ -7,5 +7,10 @@
   <body>
     <h1>Music Music Hey!!!!!</h1>
     <h2>{{ nickname }}</h2>
+    {% if Age >= 18 %}
+      <h3>เธอเป็นผู้ใหญ่</h3>
+    {% else %}
+      <h3>เธอยังไม่ใช่ผู้ใหญ่</h3>
+    {%endif%}
   </body>
 </html>

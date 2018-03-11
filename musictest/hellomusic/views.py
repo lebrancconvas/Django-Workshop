@@ -7,6 +7,7 @@ def index(request):
     template = loader.get_template("index.html")
     dtmus = {
         'nickname':"Music",
-        'Age':17
+        'Age':17,
+        'fav':['soft bear','soft doll']
     }
-    return HttpResponse(template.render(dtmus,request))
+    return HttpResponse(template.render(dtmus,request))  
